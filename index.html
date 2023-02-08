@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Web hosting</title>
+</head>
+<body>
+    <!------------------------------------------ Menu --------------------- ----->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#inicio">
+                    <div class="icono">
+                        <i class="fa-solid fa-house"></i>
+                         <span>DevFuse</span>
+                     </div>
+                </a>
+                <!-- class="responsive" -->
+            </div>
+            <!-- arvioj:agrege class="nav", class="nav-responsive menu-toggle" id="menu-toggl    e" -->
+            <nav class="nav" id="nav"  >
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Home</a></li>
+                    <li><a href="#indice" onclick="seleccionar()">Index</a></li>
+                    <li><a href="#introduccion" onclick="seleccionar()">Introduction</a></li>
+                    <li><a href="#hosting" onclick="seleccionar()">Hosting</a></li>
+                    <li><a href="#dominio" onclick="seleccionar()">Domain</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">Costs</a></li>
+                    <li><a href="#seo" onclick="seleccionar()">SEO</a></li>
+                    <li><a href="#sem" onclick="seleccionar()">SEM</a></li>
+                    <li><a href="#conclusiones" onclick="seleccionar()">Conclusions</a></li>
+                    <!-- <li><a href="#ref" onclick="seleccionar()">References</a></li> -->
+                    <li><a href="#actividad" onclick="seleccionar()">Activity</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive menu-toggle" id="menu-toggle" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+        </header>
+    </div>
+
+    <!------------------------------------------ Inicio--------------------- ----->
+    <seccion id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contedor-img">
+                <img src="img/Servidorgif.gif" width="320px">
+            </div>
+            <h1>Alojamiento web</h1>
+        <h2>Docente: Eder Geovanni Ramírez Corona</h2>
+        <h2>
+            <p style="color:#66c2e3 ;">Integrantes:</p> 
+             <!-- <li>Olguin Jiménez Víctor Ariel</li>
+             <li>Sánchez Urbina Braulio Jesús</li>
+             <li>Calixto Mantufar Aldair</li>
+             <li>Delion Martínez Brayan Giovanni</li> -->
+             <p>
+                Olguin Jimenez Victor Ariel<br>
+                Sánchez Urbina Braulio Jesús<br>
+                Calixto Mantufar Aldair<br>
+                Delion Martínez Brayan Giovanni<br>
+             </p>
+        </h2>
+        <img src="img/uaeh.png" width="210px">
+        </div>
+    </seccion>
+    <!------------------------------------------ Indice------------------------ ----->
+    <seccion id="indice" class="indice">
+        <div class="contenido-seccion">
+            <h1>Index</h1>
+            <p>
+                <a href="#inicio">
+                    <div class="icono">
+                    <i class="fa-solid fa-house"></i>
+                    <span>  Home</span>
+                </div></a>
+                <br>
+                <a href="#introduccion"><div class="icono">
+                    <i class="fa-solid fa-book"></i>
+                    <span>  Introduction</span>
+                </div></a>
+                <br>
+                <a href="#hosting"><div class="icono">
+                    <i class="fa-solid fa-computer"></i>
+                    <span>  Hosting</span>
+                </div></a>
+                <br>
+                <a href="#dominio"><div class="icono">
+                    <i class="fa-solid fa-lines-leaning"></i>
+                    <span>  Domain</span>
+                </div></a>
+                <br>
+                <a href="#portfolio"><div class="icono">
+                    <i class="fa-solid fa-money-bill"></i>
+                    <span>Cost</span>
+                </div></a>
+                <br>
+                <a href="#seo"><div class="icono">
+                    <i class="fa-brands fa-medium"></i>
+                    <span> SEO</span> <br>
+                </div></a>
+                <br>
+                <a href="#sem">       <div class="icono">
+                    <i class="fa-brands fa-teamspeak"></i>
+                    <span>  SEM</span>
+                </div></a>
+                <br>
+               
+                <a href="#conclusiones">  <div class="icono">
+                    <i class="fa-solid fa-user-graduate"></i>
+                    <span>  Conclusions</span>
+                </div></a>
+                <br>
+
+                <a href="#ref">  <div class="icono">
+                    <i class="fa-solid fa-book"></i>
+                    <span>  References</span>
+                </div></a>
+                <br>
+
+                <a href="#actividad"> <div class="icono">
+                    <i class="fa-solid fa-arrow-right"></i>
+                    <span>  Activity</span>
+                </div></a>
+
+                <br>
+            </p>
+
+            
+        </div>
+    </seccion>
+    <!------------------------------------------ DE AQUI ABAJO ES DE BRAYAN Introduccion------------------------ ----->
+
+    <seccion id="introduccion" class="introduccion">
+        <div class="contenido-introduccion">
+            <h1>Introduction</h1>
+            <p>
+                Hosting is a service that allows companies and 
+                individuals to publish their website on the Internet. 
+                It is a place where the files and content of a website 
+                are stored, allowing them to be accessible from anywhere 
+                in the world via the web. There are several types of hosting 
+                available, including shared, dedicated, VPS and cloud hosting, 
+                each with its own features and pricing.
+            </p>
+            <img src="img/web-hosting.png" alt="">
+        </div>
+    </seccion>
+    <!------------------------------------------  DE AQUI ABAJO ES DE  BRAULIO Hosting------------------------ ------------>
+
+    <section id="hosting" class="hosting">
+        <div class="contenido-hosting">
+            <h2>Hosting</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>What is web hosting?</h3>
+                    <div class="item izq">
+                        <h4>What does it consist of?</h4>
+
+                    
+                        <p> According to the guide given by (IONOS, 2019), it is one of the basic technologies of the Internet, which is characterized by being a storage space for the publication of websites. In this respect, websites are similar to text documents, but unlike saving them only on your computer's hard drive, they must be stored on a powerful server that is connected 24 hours a day </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <div class="item izq">
+                        <h4>Why is web hosting important?</h4>
+                        <p> Web hosting is a service that allows users to have their websites accessible on the Internet. Having a good hosting provider ensures that your website is available, and with the right resources, it works optimally at all times. </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>What are the characteristics of web hosting?</h4>
+                        <p>
+When talking about the characteristics of web hosting, it is important to take them into consideration, since this will allow us to make a "approximate" of the cost / benefit of web hosting, because the monthly cost of web hosting may vary, depending on factors as:</ul>
+<ul>Website size
+<li>Daily number of visits that the site receives</li>
+<li>Site traffic at peak times</li>
+<li>The accommodation characteristics that are required</li></ul>
+<br>So the features present in most web hosting are:
+<ul>
+    <li>Disk space</li>
+    <li>Bandwidth and data transfer</li>
+    <li>E-mail accounts</li>
+    <li>FTP Access</li>
+</ul>
+</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+<!-- ********************************* DE AQUI ABAJO ES DE ALDAIR**************************** -->
+                <div class="col derecha">
+                    <h3>How does it work?</h3>
+                    <div class="item der">
+                        <h4>How does web hosting work?</h4>
+                        <p>When you create an account with the web host, they allocate some space for the web site or web application on the server. You can access and manage this space from your hosting account panel. Similarly, you will gain access to other resources such as Random Access Memory (RAM), Central Processing Unit (CPU), and bandwidth. The percentage of server resources you get depends on the type of web hosting service you select.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>What are the types of web hosting services?</h4>
+                        <!--<p>Lorem ipsum dolor </p>-->
+                        <div>
+                            <ul>
+                                <li>free hosting</li>
+                                <li>shared hosting</li>
+                                <li>Virtual Private Server Hosting</li>
+                                <li>dedicated hosting</li>
+                                <li>cloud hosting</li>
+                            </ul>
+                        </div>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>What are the requirements for modern web hosting?</h4>
+                        <!--<p>Lorem ipsum dolor </p>-->
+                        <ul>
+                            <li>Build feature-rich apps that deliver compelling user experiences for all types of use cases</li>
+                            <li>Deliver apps that work on hundreds of different desktop browsers and mobile devices.</li>
+                            <li>Continuously monitor applications to identify problems before they affect the customer experience.</li>
+                            <li>Build secure apps.</li>
+                        </ul>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!------------------------------------------  DE AQUI ABAJO ES DE BRAYAN Dominio------------------------------------>
+    <seccion id="dominio" class="dominio">
+        <div class="contenido-dominio">
+            <h1>Domain</h1>
+            <p>A domain name is the equivalent of your website's
+                physical address. 
+                It helps users to easily find your site
+              <br>
+              <h1 style="font-size: 20px;">Why is it important to have your own domain?</h1>
+              <li>You can create personalized email accounts.</li>
+              <li>Without it you will not be able to appear in the digital world.<br></li>
+              <li>It will be easy for your customers to remember.<br></li>
+              <li>It will transmit confidence.<br></li>
+              <li>Without a web domain you will not be able to hire a hosting.<br></li>
+              <li>You will protect your brand information. <br></li>    
+            </p>
+            <br>
+            <video src="img/dominio.mp4" controls width="100%"></video>
+        </div>
+    </seccion>
+
+ <!------------------------------------------DE AQUI ABAJO ES DE  Brayan galeria------------------------------------>
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion" style="margin: auto;">
+            <h2>Costs</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/com.png" width="150px" height="150px">
+                    <div class="overlay">
+                        <h3>Average price per year</h3>
+                        <p>$220</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/mex.png"  width="150px" height="150px" >
+                    <div class="overlay">
+                        <h3>Average price per year</h3>
+                        <p>$281</p>
+                    </div>
+                </div>
+                <br>
+                <div class="proyecto">
+                    <img src="img/mexi.png" width="150px" height="150px">
+                    <div class="overlay">
+                        <h3>Average price per year</h3>
+                        <p>$637</p>
+                    </div>
+                    <br>
+                </div>
+                <div class="proyecto">
+                    <img src="img/or.png" width="150px" height="150px">
+                    <div class="overlay">
+                        <h3>Average price per year</h3>
+                        <p>$256</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/net.png" width="150px" height="150px">
+                    <div class="overlay">
+                        <h3>Average price per year</h3>
+                        <p>$294</p>
+                    </div>
+                </div>
+            </div><br>
+            <h2 style="text-align: center;">Where to buy a web domain?</h2>
+            <li>HostGator</li>
+            <li>Hostinger</li>
+            <li>GoDaddy</li>
+            <li>Neubox</li>
+            <li>Hospedando</li>
+            <li>Akky</li>
+        </div>
+    </section>
+
+    <!------------------------------------------  DE AQUI ABAJO ES DE  VICTOR  SEO------------------------------------>
+    <seccion id="seo" class="seo">
+        <div class="contenido-seo">
+            <h1>SEO</h1>
+            <p>
+                SEO (Search Engine Optimization) is an online marketing technique that optimizes a website to improve its visibility and ranking in the search results of search engines such as Google, Bing, etc. <br>
+                SEO is an ongoing process that involves both on-page (website content and structure) and off-page (inbound links) optimization to improve the relevance and authority of a website. On-page factors include the quality and relevance of content, website structure, title and description tagging, etc. Off-page factors include the number and quality of inbound links pointing to a website.  <br>
+                It is important to keep in mind that SEO is an ongoing process and that search engine techniques and algorithms are constantly changing. Therefore, it is necessary to keep updated and adapt to changes in order to maintain a good performance in search results.
+
+            </p>
+        </div>
+    </seccion>
+
+    <!------------------------------------------DE AQUI ABAJO ES DE  VICTOR sem------------------------------------>
+    <seccion id="sem" class="sem">
+        <div class="contenido-sem">
+            <h1>SEM</h1>
+            <p>
+                SEM (Search Engine Marketing) is a form of online marketing that includes both SEO and Search Engine Advertising (SEA). With SEM, companies can promote their products and services in search results by paying for ads and increasing their visibility in organic search results through SEO. <br>
+                SEM includes both organic search engine optimization (SEO) and buying ads in search results (SEA). With search engine advertising, companies can display their ads in search results when users search for relevant keywords. SEA is a fast and effective way to gain visibility and traffic to a website, but it requires an ongoing investment.
+            </p>
+        </div>
+    </seccion>
+
+   
+    <!------------------------------------------DE AQUI ABAJO ES DE  ALDAIR conclusiones ------------------------------------>
+    <seccion id="conclusiones" class="conclusiones">
+        <div class="contenido-conclusiones">
+            
+            <br>
+            
+            <h1 style="text-align: center;">Conclusions</h1>
+            <p>
+                Web hosting is a service that allows users to
+                host their websites on remote servers. This allows
+                sites to be available online 24 hours a day, 7 days a
+                 week. There are many options available in the market, 
+                 including shared hosting, dedicated hosting, cloud hosting, 
+                 and more. When choosing a hosting provider, it's important to 
+                 consider factors such as cost, availability, speed, security, 
+                 and customer support. Also, it is important to choose a plan 
+                 that meets the needs of your website, be it in terms of bandwidth, 
+                 storage, and other specific features. In general, web hosting is a 
+                 critical component to having a successful and well-functioning website.
+            </p> <br>
+            <img src="img/uaeh.png" width="250px">
+        </div>
+    </seccion>
+        <!------------------------------------------DE AQUI ABAJO ES DEFUENTES DE REFERENCIA ------------------------------------>
+     <!-- ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+     ██████╗░███████╗██╗░░░██╗███████╗██╗░░░██╗░██████╗███████╗
+     ██╔══██╗██╔════╝██║░░░██║██╔════╝██║░░░██║██╔════╝██╔════╝
+     ██║░░██║█████╗░░╚██╗░██╔╝█████╗░░██║░░░██║╚█████╗░█████╗░░
+     ██║░░██║██╔══╝░░░╚████╔╝░██╔══╝░░██║░░░██║░╚═══██╗██╔══╝░░
+     ██████╔╝███████╗░░╚██╔╝░░██║░░░░░╚██████╔╝██████╔╝███████╗
+     ╚═════╝░╚══════╝░░░╚═╝░░░╚═╝░░░░░░╚═════╝░╚═════╝░╚══════╝ -->
+            <seccion id="ref" class="ref">
+            <div class="contenido-ref">
+
+                <h1 style="text-align: center;">Reference sources</h1>
+                <p>Huerta, A. J. (2022, 7 diciembre). ¿Cuánto cuesta un dominio web en México en 2023? Blog del E-commerce. https://www.tiendanube.com/blog/mx/cuanto-cuesta-un-dominio-web-en-mexico-2023/</p><br>
+                <p>Disponibilidad y Registro de Dominios. (s/f). Neubox. 2023, de https://neubox.com/encuentra-tu-dominio</p><br>
+                <p>3</p><br>
+                <p>4</p><br>
+                <p>M. (2023, 12 enero). Beginner’s Guide to SEO [plus FREE quick start checklist]. Moz. https://moz.com/beginners-guide-to-seo <br>
+                    Search Engine Marketing (SEM): How to Do It Right. (2022, 24 septiembre).WordStream. https://www.wordstream.com/search-engine-marketing</p><br>
+                <p>6</p><br>
+                
+            </div>
+        </seccion>
+
+    <!------------------------------------------DE AQUI ABAJO ES DE  BRAULIO Actividad ------------------------------------>
+    <!-- SOLO PONER EL LINK DE LA ACTIVIDAD -->
+    
+    <seccion id="actividad" class="actividad">
+        <div class="contenido-actividad"><br>
+            <h1 style="text-align: center;">Activity</h1>
+            <p style="text-align: center;">
+                Perform the following activity<br>
+                 <p style="text-align: center;">👇 </p>
+            </p> 
+        <br>
+        <a href="https://forms.gle/nQLcKVsT49JFTmqB6" target="_blank">
+            <span>Click here!</span>
+        </a>
+        <br><br><br><br><br><br><br><br>
+           
+
+            <footer>
+                <a href="#inicio" class="arriba">
+                    <i class="fa-sharp fa-solid fa-angles-up"></i>
+                </a>
+            </footer>
+        </div>
+    </seccion>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
